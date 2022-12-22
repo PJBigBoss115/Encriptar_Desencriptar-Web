@@ -76,7 +76,7 @@ function encriptarTexto() {
         $('#textoMensaje_').val(nuevaCadena);
         nuevaCadena = "";
     } else {
-        $('#textoMensaje_').val("Debes ingresar un texto, intenta copiar este texto!");
+        $('#textoMensaje_').val("debes ingresar un texto, intenta copiar este!");
     }
 }
 
@@ -116,7 +116,7 @@ function desencriptarTexto() {
         $('#textoMensaje_').val(nuevaCadena);
         nuevaCadena = "";
     } else {
-        $('#textoMensaje_').val("Denterbenters imesngrentersair ufatn tenterxtober, imesntenterntai coberpimesair enterstenter tenterxtober!");
+        $('#textoMensaje_').val("denterbenters imesngrentersair ufatn tenterxtober, imesntenterntai coberpimesair enterstenter!");
     }
 }
 
