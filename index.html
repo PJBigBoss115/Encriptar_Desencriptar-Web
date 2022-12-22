@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Signika+Negative&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <!--Encabezado-->
+        <img class="logo" src="resources/images/logo.png" alt="logoAlura">
+    </header>
+    <main>
+        <!--Contenido Principal-->
+        <section class="formulario">
+            <!--Formulario-->
+            <form name="enviar" action="#">
+                <!--Elementos-->
+                <textarea id="cadena" class="ingresarTexto" cols="65" rows="10" class="input-padron" required placeholder="Ingrese el texto aqui!"></textarea>
+
+                <div class="atencion">
+                    <img src="resources/images/atencion.png" alt="">
+                    <label class="mensaje" for="texto">Solo letras minúsculas y sin acentos.</label>
+                </div>
+
+                <div class="botones">
+                    <input id="encriptar_" class="encriptar" type="button" value="Encriptar">
+                    <input id="desencriptar_" class="desencriptar" type="button" value="Desencriptar">
+                </div>
+            </form>
+        </section>
+        <section class="mostrar">
+            <!--Respuesta-->
+            <div id="respuesta_" class="respuesta">
+                <form name="resultado" action="#">
+                    <textarea id="textoMensaje_" class="textoMensaje" cols="25" rows="14"></textarea>
+                    <input id="copiar_" class="copiar"  type="button" value="Copiar!">
+                </form>
+            </div>
+            
+            <div id="caja_" class="caja">
+                <img class="buscar" src="resources/images/buscar.png" alt="textoEncriptado">
+                <p class="aviso">Ningún mensaje fue encontrado. 
+                    Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!--Pie de pagina-->
+        <div class="fin">
+            <p class="copyrignt">	
+                &copy Copyright Pedro Aguilar</p>
+                <div class="icon-text-text" id="Contacts">
+                    <ul class="social">
+                        <li>
+                            <a href="Mailto:pedro28aguilar@gmail.com" target="_blank">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://facebook.com/pedrojose.aguilarvaides" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com/pjbigboss115" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="resources/scrip/main.js"></script>
+</body>
+</html>
