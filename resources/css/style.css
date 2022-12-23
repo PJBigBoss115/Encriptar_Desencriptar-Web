@@ -156,7 +156,7 @@ main{
     place-items: center;
     margin: 1em 0 0;
 
-    background: url(/resources/images/clouds-g81dde63d8_1920.jpg);
+    background-image: url(resources/images/clouds-g81dde63d8_1920.jpg);
 }
 
 .copyrignt{
