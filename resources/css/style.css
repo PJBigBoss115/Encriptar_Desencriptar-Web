@@ -156,12 +156,11 @@ main{
     place-items: center;
     margin: 1em 0 0;
 
-    background-image: url(/resources/images/overlook_by_hommet_by_pixelhommet_deske4c.png);
+    background: #0A3871;
 }
 
 .copyrignt{
-    color: #0A3871;
-    font-weight: bold;
+    color: white;
     font-size: 14px;
 
     margin: 2em;
@@ -185,7 +184,7 @@ main{
     font-size: 250%;
     margin: 0 1em 0 0;
     padding: 1.5%;
-    color: #0A3871;
+    color: white;
 }
 
 @media screen and (max-width:480px) {
@@ -229,6 +228,6 @@ main{
         font-size: 150%;
         margin: 0 1em 0 0;
         padding: 1.5%;
-        color: #0A3871;
+        color: white;
     }
 }
