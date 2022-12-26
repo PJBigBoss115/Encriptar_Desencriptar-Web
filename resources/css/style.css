@@ -223,6 +223,13 @@ main{
     
         width: 80%;
     }
+    
+    .copyrignt{
+        color: white;
+        font-size: 10px;
+    
+        margin: 2em;
+    }
 
     .social i{
         font-size: 150%;
