@@ -55,8 +55,10 @@ copiar.addEventListener('click', copiarTexto);
 
 
 function encriptarTexto() {
-    //Pasamos lo que se encuentre en el campo de texto a la variable cadena
-    cadena = document.getElementById("cadena").value;
+    //Pasamos lo que se encuentre en el campo de texto a la
+    //variable cadena y si esta en mayusculas sera pasada a
+    //minisculas y quitara caracteres especiales
+    cadena = document.getElementById("cadena").value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     //Revisamos que contenga algo
     //si es asi pasaremos a ejecutar instrucciones
     if(revisarTexto()) {
@@ -104,8 +106,10 @@ function encriptarTexto() {
 }
 
 function desencriptarTexto() {
-    //Pasamos lo que se encuentre en el campo de texto a la variable cadena
-    cadena = document.getElementById("cadena").value;
+    //Pasamos lo que se encuentre en el campo de texto a la
+    //variable cadena y si esta en mayusculas sera pasada a
+    //minisculas y quitara caracteres especiales
+    cadena = document.getElementById("cadena").value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     //Revisamos que contenga algo
     //si es asi pasaremos a ejecutar instrucciones
     if(revisarTexto()) {
